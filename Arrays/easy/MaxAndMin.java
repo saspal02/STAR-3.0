@@ -4,13 +4,6 @@ import java.util.Arrays;
 
 public class MaxAndMin {
 
-    public static void main(String[] args) {
-
-        int[] arr = {10,20,30,40,50};
-        System.out.println(Arrays.toString(findMaxAndMin(arr)));
-
-    }
-
     static int[] findMaxAndMin(int[] arr) {
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;

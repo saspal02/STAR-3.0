@@ -2,13 +2,6 @@ package Arrays.easy;
 
 public class AverageOfElements {
 
-    public static void main(String[] args) {
-
-        int[] arr = {10,20,30,40,50};
-        System.out.println(findAverageOfElements(arr));
-
-    }
-
     static double findAverageOfElements(int[] arr) {
 
         int sum = 0;

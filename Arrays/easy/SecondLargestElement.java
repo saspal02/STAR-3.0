@@ -1,12 +1,7 @@
 package Arrays.easy;
 
+//Without soritng
 public class SecondLargestElement {
-
-    public static void main(String[] args) {
-
-        int[] arr = {10,20,30,40,50};
-        System.out.println(findSecondLargestElement(arr));
-    }
 
     static int findSecondLargestElement(int[] arr) {
 
